@@ -1,22 +1,19 @@
 body,html{
     height: 100%;
-    background-image: url("background1.jpg");
+    background-image: url("60.jpg");
   }
 
   img {
     padding: 50px;
-    width: 350px;
-    position: absolute;
+    width: 250px;
     right: 30px;
-    top:90px;
-    max-width:100%;
+    top:150px;
     height:auto;
-  }
+      
+    }
   
   h1{
-      position: static;
-      top:150px;
-      left:400px;
+      font-size: 60px;
       font-family: sans-serif, cursive;
   }
   
@@ -24,11 +21,42 @@ h2{
     font-family: sans-serif;
 }
 
-a:hover {
-    color: fuchsia;
+.navigation {
+  background-color: #333;
 }
 
-a:visited {
-    color: coral;
+.navigation a {
+  float: middle;
+  color: white;
+  text-align: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 50px;
 }
 
+.navigation a:hover {
+  background-color: #dddd;
+  color: black;
+}
+
+.navigation a:active {
+    color: aqua;
+}
+
+.Title {
+    font-size: 60px;
+    text-align: center;    
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
