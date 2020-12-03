@@ -9,23 +9,59 @@
 </head>
     
 <body>
-    <div class="navigation">
-  <a class="active" href="index.html">Home</a>
-  <a href="aboutme.html">About Me</a>
-  <a href="conditions.html">Contact Info</a>
-  <a href="Interests.html">Interests</a>
+    
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+    }
+
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="conditions.html">Contact Info</a>
+        <a href="Interests.html">Interests</a>
     </div>
-    <div class= "Title">
-        <h1>Learn about Me!</h1>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigate here!</span>
+    <div class="grid-container middle">
+        <div class="grid-item">
     </div>
-    <h2>
-        Hey everyone, my name is Ronit Barman and I'm a student at Georgia Tech. One of my biggest passions is finding different ways to help people in a technological format. I also have a small interest in doing something in law because I believe there is potential in combining those two fields! 
-    </h2>
-    <div class = "center">
-    <img src = "images/law.jfif" alt = "law">
+  
+  <div class="grid-item">
+  
+  </div>
+  <div class="grid-item">
+      <h1 id = "colortext">Learn about me!</h1>
+    </div> 
+  <div class="grid-item">
+
+      
     </div>
+  <div class="grid-item">
+  
+  </div>
+  <div class="grid-item" id = "">
+      
+    <h2>Hey everyone, my name is Ronit Barman and I'm a student at Georgia Tech. One of my biggest passions is finding different ways to help people in a technological format. I also have a small interest in doing something in law because I believe there is potential in combining those two fields!</h2>
+    </div>  
+  <div class="grid-item">
+    </div>
+  <div class="grid-item">
+
+    </div>
+  <div class="grid-item">
+                  <img src = "images/law.jfif" alt = "law">
+</div>  
+</div>
     </body>
 <!-- Create multiple pages like a portfolio, about me, contact, interest pages, project pages, etc -->
+<!-- I need to add slide in animations for each of the pages -->
 <footer>
 </footer>
 </html>

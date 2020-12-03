@@ -9,20 +9,57 @@
 </head>
 
 <body>
-    <div class="navigation">
-  <a class="active" href="index.html">Home</a>
-  <a href="aboutme.html">About Me</a>
-  <a href="conditions.html">Contact Info</a>
-  <a href="Interests.html">Interests</a>
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+    }
+
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="conditions.html">Contact Info</a>
+        <a href="Interests.html">Interests</a>
     </div>
-    <h1><ul>
-        <li>AI</li>
-        <li><a href="https://www.youtube.com/watch?v=IDNuz_VFJtU">Law</a></li>
-        <li>Java</li>
-        <li>C#</li>
-        <li>Python</li>
-        <li>C++</li>
-        </ul></h1>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigate here!</span>
+    
+    <div class="grid-container middle">
+        <div class="grid-item">
+            <a>AI</a>
+    </div>
+  
+  <div class="grid-item">
+     <a>Law</a>
+  </div>
+  <div class="grid-item">
+      <a>Java</a>
+    </div> 
+  <div class="grid-item">
+      <a>C++</a>
+    </div>
+  <div class="grid-item">
+      <a>C#</a>
+  </div>
+  <div class="grid-item">
+      <a>Python</a>
+    </div>  
+  <div class="grid-item">
+      <a href="https://github.gatech.edu/pages/rbarman3/PlantOnAWindow.io/">Plant Game!</a>
+    </div>
+  <div class="grid-item">
+        <a>CSS</a>
+    </div>
+  <div class="grid-item">
+        <a>HTML</a>
+</div>  
+</div>
+    
     <script src=""></script>
 </body>
 </html>
